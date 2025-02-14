@@ -9,6 +9,7 @@ print('=-' * 30)
 while opcao != 's':
   print('')
   print('Escolha entre as seguintes opções: ')
+  print('')
   print('[1] Somar')
   print('[2] Multiplicar')
   print('[3] Saber qual o maior')
@@ -41,6 +42,9 @@ while opcao != 's':
 
   elif opcao == '4':
     print('Escolha novos números: ')
+
+  elif opcao not in '1234s':
+    print('Opção inválida, por favor tente novamente!')
 
 print('')
 print('Obrigada por usar nossa calculadora!')
