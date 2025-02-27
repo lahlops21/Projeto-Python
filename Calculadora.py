@@ -38,7 +38,7 @@ while opcao != 's':
     elif usuario < usuario2:
       print(f'{usuario2} é maior que {usuario}')
     elif usuario == usuario2:
-      print('Eles são iguais')
+      print('Os números escolhidos são iguais')
 
   elif opcao == '4':
     print('Escolha novos números: ')
