@@ -43,12 +43,13 @@ while opcao != 's':
 
   elif opcao == '4':
     print('Escolha novos números: ')
+
   elif opcao == '5':
     print('Você escolheu dividir!')
     resultado = usuario / usuario2
     print(f'O resultado de {usuario} / {usuario2} = {resultado}')
 
-  elif opcao not in '12345s':
+  elif opcao not in '1234s':
     print('Opção inválida, por favor tente novamente!')
 
 print('')
