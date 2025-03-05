@@ -14,6 +14,7 @@ while opcao != 's':
   print('[2] Multiplicar')
   print('[3] Saber qual o maior')
   print('[4] Novos números')
+  print('[5] Dividir')
   print('[s] Sair do programa')
   usuario = int(input('Insira o 1o valor: '))
   usuario2 = int(input('Insira o 2o valor: '))
@@ -43,7 +44,7 @@ while opcao != 's':
   elif opcao == '4':
     print('Escolha novos números: ')
   elif opcao == '5':
-    print('Você escolheu multiplicar!')
+    print('Você escolheu dividir!')
     resultado = usuario / usuario2
     print(f'O resultado de {usuario} / {usuario2} = {resultado}')
 
